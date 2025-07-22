@@ -32,6 +32,8 @@ Plots the Sensex closing price over time, with daily crash days highlighted.
 Visualizes market drawdown over time, with a threshold line to indicate significant downturns.
 
 Provides zoomed-in plots of closing prices, daily returns, and drawdowns for specific historical crash periods (e.g., 1997, 2008-2009, 2020).
+<img width="1777" height="744" alt="image" src="https://github.com/user-attachments/assets/854b14bc-f01a-452c-87d4-feda400cdb3e" />
+
 
 ## Early Warning System (EWS):
 
