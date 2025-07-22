@@ -25,7 +25,7 @@ Calculates the drawdown as the percentage drop from the cumulative maximum, high
 
 Clusters consecutive drawdown events to identify prolonged crash periods.
 
-# Interactive Visualizations (using Plotly):
+## Interactive Visualizations (using Plotly):
 
 Plots the Sensex closing price over time, with daily crash days highlighted.
 
@@ -33,13 +33,16 @@ Visualizes market drawdown over time, with a threshold line to indicate signific
 
 Provides zoomed-in plots of closing prices, daily returns, and drawdowns for specific historical crash periods (e.g., 1997, 2008-2009, 2020).
 
-Early Warning System (EWS):
+## Early Warning System (EWS):
 
 Calculates rolling mean returns and rolling volatility over a specified window.
 
 Identifies early warning signals for potential crashes based on a combination of negative rolling mean returns and high rolling volatility.
 
 Generates a synthetic dataset for 2025 to demonstrate the EWS in action, highlighting potential future crash signals.
+
+<img width="1798" height="530" alt="image" src="https://github.com/user-attachments/assets/6c59ab5e-7a57-43f0-91ca-6154ea64542f" />
+
 
 # Data
 The core of this analysis relies on historical Sensex data, expected to be in a CSV file named sensex.csv. The CSV should contain at least the following columns:
